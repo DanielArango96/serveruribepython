@@ -26,3 +26,34 @@ class ProveedorDTOEnvio(BaseModel): #EL DTO DE RESPUESTA
     fechaEnvio:date
     costoEnvio:int
     descripcion:str
+
+
+
+class LogisticaDTOEnvio(BaseModel): #EL DTO DE RESPUESTA
+    id= int
+    nombreProveedor=str
+    nombreEncargado=str
+    correoEncargado= str
+    numeroContactoEncargado= str
+    productos = str
+    cantidad=str
+    numeroRecibo=str
+    detalles= str
+    transportadora=str
+    numeroGuia=str
+    fechaRecepcion= str
+
+
+class LogisticaDTO(BaseModel): #EL DTO DE RESPUESTA
+    id= int
+    nombreProveedor=str
+    nombreEncargado=str
+    correoEncargado= str
+    numeroContactoEncargado= str
+    productos = str
+    cantidad=str
+    numeroRecibo=str
+    detalles= str
+    transportadora=str
+    numeroGuia=str
+    fechaRecepcion= str

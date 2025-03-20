@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from app.database.connection import engine
-from app.api.models.tablas import Base
+from app.api.models.Proveedor import Base
 from app.api.endpoints.endpoints import rutas
 
 from starlette.responses import RedirectResponse
